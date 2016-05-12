@@ -1,7 +1,7 @@
 {
   "name": "tt-translate",
   "version": "0.0.1",
-  "description": "Part of the Tell Tally suite. Translates UK bank statements into a legible JSON format.",
+  "description": "Part of the Tell Tally suite. Translates UK bank statements into a charges JSON format.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
