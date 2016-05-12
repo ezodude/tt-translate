@@ -20,8 +20,8 @@ program
   mkdirp.sync(outputDirectory);
 
   const writeStream = h(fs.createWriteStream(path.join(outputDirectory, 'charges.json')));
-  const source = translate(statement);
-  source
+  const translation = translate(statement);
+  translation
   .streamJson()
   .doto(console.log)
   .pipe(fs.createWriteStream(path.join(outputDirectory, 'charges.json')))
