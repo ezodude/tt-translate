@@ -1,0 +1,38 @@
+{
+  "name": "tt-translate",
+  "version": "0.0.1",
+  "description": "Part of the Tell Tally suite. Translates UK bank statements into a legible JSON format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezodude/tt-translate.git"
+  },
+  "keywords": [
+    "pfm",
+    "uk bank statements",
+    "banking",
+    "tell tally",
+    "tell tally translate"
+  ],
+  "author": "Ezo Saleh <npm@ezosaleh.com> (http://ezosaleh.com/)",
+  "license": "GPL-3.0",
+  "preferGlobal": true,
+  "bin": {
+    "tt-translate": "bin/cmd.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ezodude/tt-translate/issues"
+  },
+  "homepage": "https://github.com/ezodude/tt-translate#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "highland": "^2.7.1",
+    "lodash": "^4.6.1",
+    "moment": "^2.13.0",
+    "money-math": "^2.4.0"
+  }
+}

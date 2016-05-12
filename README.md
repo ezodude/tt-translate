@@ -2,7 +2,7 @@
 
 Translates UK bank statements into a legible JSON format.
 
-We parse the [OFX format](http://www.ofx.org/) where possible. Otherwise, there's a scraping fallback.
+We parse the [OFX format](http://www.ofx.org/) where possible. Otherwise, we fallback to CSV or scraping PDF formats.
 
 ## Output
 
