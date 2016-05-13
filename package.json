@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/ezodude/tt-translate#readme",
   "dependencies": {
+    "banking": "git+https://github.com/euforic/banking.js.git",
     "chalk": "^1.1.1",
     "commander": "^2.9.0",
     "highland": "^2.7.1",
@@ -36,5 +37,9 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.13.0",
     "money-math": "^2.4.0"
+  },
+  "engines": {
+    "node": "4.2.4",
+    "npm": "2.14.12"
   }
 }
