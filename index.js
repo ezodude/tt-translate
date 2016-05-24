@@ -5,7 +5,7 @@ const h         = require('highland')
     , _         = require('lodash')
     , moment    = require('moment')
     , money     = require("money-math")
-    , ofxStream = require('./drivers/ofx').stream;
+    , ofxStream = require('./drivers/default').stream;
 
 const Parser = function(){};
 
