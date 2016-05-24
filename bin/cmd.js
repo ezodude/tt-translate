@@ -22,7 +22,7 @@ program
   const writeStream = h(fs.createWriteStream(path.join(outputDirectory, 'charges.json')));
   const translation = translate(statement);
   translation
-  .streamJson()
+  .stream()
   .doto(console.log)
   .pipe(fs.createWriteStream(path.join(outputDirectory, 'charges.json')))
   .on('error', (err) => {
